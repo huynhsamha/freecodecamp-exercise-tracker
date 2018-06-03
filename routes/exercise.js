@@ -51,7 +51,7 @@ router.get('/log', (req, res, next) => {
         if (!user) throw new Error('Unknown user with _id');
         Exercise.find({ userId })
             .where('date').gte(from).lte(to)
-            .limit(limit)
+            .limit(+limit).exec()
             .then(log => res.status(200).send({
                 _id: userId,
                 username: user.username,
