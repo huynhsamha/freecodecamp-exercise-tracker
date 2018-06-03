@@ -1,0 +1,35 @@
+{
+	"name": "freecodecamp-exercise-tracker",
+	"version": "0.1.0",
+	"description": "A REST API project, part of Free Code Camp's curriculum",
+	"main": "server.js",
+	"scripts": {
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.15.2",
+		"cors": "^2.8.1",
+		"dotenv": "^6.0.0",
+		"express": "^4.14.0",
+		"moment": "^2.22.2",
+		"mongoose": "^4.7.2",
+		"morgan": "^1.9.0",
+		"shortid": "^2.2.6"
+	},
+	"engines": {
+		"node": ">=6.10.0",
+		"npm": ">=3.10.8"
+	},
+	"repository": {
+		"url": "https://github.com/huynhsamha/freecodecamp-exercise-tracker"
+	},
+	"license": "MIT",
+	"keywords": [
+		"node",
+		"express",
+		"freecodecamp"
+	],
+	"contributors": [
+		"huynhsamha"
+	]
+}
